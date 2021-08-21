@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,900;1,300;1,500;1,700;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif !important;
+}
+
+body{
+  background: rgb(86,0,210);
+  background: linear-gradient(90deg, rgba(86,0,210,1) 13%, rgba(45,7,107,1) 37%, rgba(2,156,218,1) 68%, rgba(53,0,255,1) 90%); 
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding-left: 75px;
+  padding-right: 75px;
+  padding-top: 35px;
+  padding-bottom: 25px;
+}
+
+h1 {
+  color: black;
+}
+
+.header {
+  background-image: url("background.png");
+  font-family: Arial, Helvetica, sans-serif;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-origin: border-box;
+  height: 500px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px;
+  display: grid;
+  place-items: center;
+  padding: 50px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  padding-top: 25px;
+}
+
+.header--home{
+  height: 650px;
+}
+
+@keyframes fade-and-come-down {
+  from{
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+  to{
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.header h1 { 
+  font-size: 60px; 
+  padding: 15px;
+  text-align: center;
+  color: #000;
+  animation: fade-and-come-down 1.25s forwards;
+} 
+
+
+ .navbar {
+    overflow: hidden;
+    background: linear-gradient(to bottom, #2c539e 13%,#2c539e 40%,#2c539e 55%,#2c539e 83%);
+    font-family: Arial;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    float: right;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; 
+    margin: 0; 
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(80, 51, 167);
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  } 
+
+.footer {
+  position: fixed;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding-top: 38px;
+}
+
+#respond {
+  margin-top: 40px;
+}
+
+.head1 {
+  background-image: url("about.png");
+  font-family: Arial, Helvetica, sans-serif;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-origin: border-box;
+  height: 200px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px;
+  display: grid;
+  place-items: center;
+  padding: 50px;
+}
+
+.head2 {
+  background-image: url("windows.png");
+  font-family: Arial, Helvetica, sans-serif;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-origin: border-box;
+  height: 200px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px;
+  display: grid;
+  place-items: center;
+  padding: 50px;
+}
+
+.head3 {
+  background-image: url("macos.png");
+  font-family: Arial, Helvetica, sans-serif;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-origin: border-box;
+  height: 200px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px;
+  display: grid;
+  place-items: center;
+  padding: 50px;
+}
+
+.head4 {
+  background-image: url("linux.png");
+  font-family: Arial, Helvetica, sans-serif;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-origin: border-box;
+  height: 200px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px;
+  display: grid;
+  place-items: center;
+  padding: 50px;
+}
+
+.head5 {
+  background-image: url("credits.png");
+  font-family: Arial, Helvetica, sans-serif;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-origin: border-box;
+  height: 200px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px;
+  display: grid;
+  place-items: center;
+  padding: 50px;
+}
+
+.about {
+  border: black 1px solid;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  display: grid;
+  height: auto;
+}
