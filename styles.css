@@ -39,8 +39,10 @@ h1 {
   padding-top: 25px;
 }
 
-.header--home{
-  height: 650px;
+@media (min-width: 600px) {
+  .header--home {
+    height: 725px;
+  }
 }
 
 @keyframes fade-and-come-down {
