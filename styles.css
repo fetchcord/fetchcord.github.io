@@ -23,26 +23,29 @@ h1 {
 }
 
 .header {
-  background-image: url("background.png");
   font-family: Arial, Helvetica, sans-serif;
   background-size: cover;
   background-repeat: no-repeat;
   background-origin: border-box;
-  height: 500px;
+  height: 100%;
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
   display: grid;
   place-items: center;
-  padding: 50px;
+  /* padding: 50px; */
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
-  padding-top: 25px;
+  /* padding-top: 25px; */
 }
 
-@media (min-width: 600px) {
-  .header--home {
-    height: 725px;
-  }
+.header--home {
+  overflow: hidden;
+}
+
+.header--home img {
+  margin-left: 0%;
+  transform: translateX(0%);
+  width: 100%;
 }
 
 @keyframes fade-and-come-down {
