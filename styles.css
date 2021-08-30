@@ -212,3 +212,17 @@ h1 {
   place-items: center;
   padding: 50px;
 }
+
+.head6 {
+  background-image: url("discord.png");
+  font-family: Arial, Helvetica, sans-serif;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-origin: border-box;
+  height: 200px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px;
+  display: grid;
+  place-items: center;
+  padding: 50px;
+}
