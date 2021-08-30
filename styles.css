@@ -29,13 +29,10 @@ h1 {
   background-origin: border-box;
   height: 100%;
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
-  /* margin-bottom: 20px; */
   display: grid;
   place-items: center;
-  /* padding: 50px; */
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
-  /* padding-top: 25px; */
 }
 
 .header--home {
@@ -43,8 +40,8 @@ h1 {
 }
 
 .header--home img {
-  margin-left: 0%;
-  transform: translateX(0%);
+  margin-left: 0;
+  transform: translateX(0);
   width: 100%;
 }
 
@@ -144,85 +141,108 @@ h1 {
 }
 
 .head1 {
-  background-image: url("about.png");
   font-family: Arial, Helvetica, sans-serif;
   background-size: cover;
   background-repeat: no-repeat;
   background-origin: border-box;
-  height: 200px;
+  height: 100%;
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
-  margin-bottom: 20px;
   display: grid;
   place-items: center;
-  padding: 50px;
+  overflow: hidden;
+}
+
+.head1 img {
+  margin-left: 0%;
+  transform: translateX(0%);
+  width: 100%;
 }
 
 .head2 {
-  background-image: url("windows.png");
   font-family: Arial, Helvetica, sans-serif;
   background-size: cover;
   background-repeat: no-repeat;
   background-origin: border-box;
-  height: 200px;
+  height: 100%;
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
-  margin-bottom: 20px;
   display: grid;
   place-items: center;
-  padding: 50px;
+  overflow: hidden;
+}
+
+.head2 img {
+  width: 100%;
+  transform: translateX(0);
+  margin-left: 0;
 }
 
 .head3 {
-  background-image: url("macos.png");
   font-family: Arial, Helvetica, sans-serif;
   background-size: cover;
   background-repeat: no-repeat;
   background-origin: border-box;
-  height: 200px;
+  height: 100%;
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
-  margin-bottom: 20px;
   display: grid;
   place-items: center;
-  padding: 50px;
+}
+
+.head3 img {
+  width: 100%;
+  margin-left: 0;
+  transform: translateX(0);
 }
 
 .head4 {
-  background-image: url("linux.png");
   font-family: Arial, Helvetica, sans-serif;
   background-size: cover;
   background-repeat: no-repeat;
   background-origin: border-box;
-  height: 200px;
+  height: 100%;
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
-  margin-bottom: 20px;
+  overflow: hidden;
   display: grid;
   place-items: center;
-  padding: 50px;
+}
+
+.head4 img {
+  width: 100%;
+  margin-left: 0;
+  transform: translateX(0);
 }
 
 .head5 {
-  background-image: url("credits.png");
   font-family: Arial, Helvetica, sans-serif;
   background-size: cover;
   background-repeat: no-repeat;
   background-origin: border-box;
-  height: 200px;
+  height: 100%;
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
-  margin-bottom: 20px;
+  overflow: hidden;
   display: grid;
   place-items: center;
-  padding: 50px;
+}
+
+.head5 img {
+  margin-left: 0;
+  transform: translateX(0);
+  width: 100%;
 }
 
 .head6 {
-  background-image: url("discord.png");
   font-family: Arial, Helvetica, sans-serif;
   background-size: cover;
   background-repeat: no-repeat;
   background-origin: border-box;
-  height: 200px;
+  height: 100%;
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
-  margin-bottom: 20px;
+  overflow: hidden;
   display: grid;
   place-items: center;
-  padding: 50px;
+}
+
+.head6 img {
+  width: 100%;
+  margin-left: 0;
+  transform: translateX(0);
 }
