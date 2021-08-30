@@ -212,11 +212,3 @@ h1 {
   place-items: center;
   padding: 50px;
 }
-
-.about {
-  border: black 1px solid;
-  border-bottom-right-radius: 25px;
-  border-bottom-left-radius: 25px;
-  display: grid;
-  height: auto;
-}
