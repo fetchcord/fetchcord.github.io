@@ -27,22 +27,39 @@ h1 {
   background-size: cover;
   background-repeat: no-repeat;
   background-origin: border-box;
-  height: 100%;
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
   display: grid;
   place-items: center;
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
+  height: 100%;
+  overflow: hidden;
+  background: linear-gradient(to right bottom, rgb(0, 20, 200), rgb(255, 100, 255));
 }
 
 .header--home {
   overflow: hidden;
 }
 
-.header--home img {
+.header--home img, .header--home h1 {
+  width: 17.5%;
   margin-left: 0;
   transform: translateX(0);
-  width: 100%;
+  background-blend-mode: multiply;
+  filter: opacity(100%);
+}
+
+.header--home h1, .header--home p {
+  color: rgba(255, 255, 255, 1.00);
+  text-align: center;
+}
+
+.header--home h1 {
+  font-size: 32px;
+}
+
+.header--home p {
+  font-size: 20px;
 }
 
 @keyframes fade-and-come-down {
@@ -56,6 +73,7 @@ h1 {
   }
 }
 
+/*
 .header h1 { 
   font-size: 60px; 
   padding: 15px;
@@ -63,7 +81,7 @@ h1 {
   color: #000;
   animation: fade-and-come-down 1.25s forwards;
 } 
-
+*/
 
  .navbar {
     overflow: hidden;
