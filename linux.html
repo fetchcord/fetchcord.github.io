@@ -1,120 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>FetchCord</title>
-  <meta content="text/html" charset="UTF-8" http-equiv="Content-Type">
-  <meta content="UTF-8" http-equiv="encoding">
-  <link type="text/css" rel="stylesheet" href="styles.css">
-  <script type="code/javascript" src="script.js"></script>
-  <link rel="icon" href="favicon.ico">
-</head>
+  <head>
+    <title>FetchCord</title>
+    <meta content="text/html" charset="UTF-8" http-equiv="Content-Type">
+    <meta content="UTF-8" http-equiv="encoding">
+    <link type="text/css" rel="stylesheet" href="styles.css">
+    <script type="code/javascript" src="script.js"></script>
+    <link rel="icon" href="favicon.ico">
+  </head>
 
-<body>
-  <div class="navbar">
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="credits.html">Credits</a>
-    <a href="discord.html">Discord</a>
-    <div class="dropdown">
-      <button class="dropbtn">Downloads
-        <i class="fa fa-caret-down"></i>
-      </button>
-      <div class="dropdown-content">
-        <a href="linux.html">Linux</a>
-        <a href="macos.html">MacOS</a>
-        <a href="windows.html">Windows</a>
+  <body>
+    <div class="navbar">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="credits.html">Credits</a>
+      <a href="discord.html">Discord</a>
+
+      <div class="dropdown">
+        <button class="dropbtn">Downloads
+          <em class="fa fa-caret-down"></i>
+        </button>
+
+        <div class="dropdown-content">
+          <a href="linux.html">Linux</a>
+          <a href="macos.html">MacOS</a>
+          <a href="windows.html">Windows</a>
+        </div>
       </div>
     </div>
-  </div>
 
-  <header class="head4"><img alt="header image" src="linux.png" /></header>
+    <header class="head4"><img alt="header image" src="linux.png" /></header>
 
-  <div class="guide">
-    <br>
+    <div class="guide">
+      <br>
 
-    <h1>Installing on (GNU/)Linux</h1>
+      <h1>Installing on (GNU/)Linux</h1>
 
-    <br>
-    <br>
+      <br>
+      <br>
 
-    <p>
-      <strong>NOTE:</strong> <em>You need neofetch to be also installed for this to work.</em>
-    </p>
+      <p>
+        <strong>NOTE:</strong> <em>You need neofetch to be also installed for this to work.</em>
+      </p>
 
-    <br>
-    <br>
+      <br>
+      <br>
 
-    <h2>Via AUR</h2>
+      <h2>Via AUR</h2>
 
-    <br>
+      <br>
 
-    <p>
-      On Arch Linux for the git testing version (the less stable version): fetchcord-testing
+      <p>
+        On Arch Linux for the git testing version (the less stable version): fetchcord-testing
       
-      <br>
-      <br>
+        <br>
+        <br>
 
-      And the git version (synced with master): fetchcord
+        And the git version (synced with master): fetchcord
       
-      <br>
-      <br>
+        <br>
+        <br>
 
-      Historically the stabler release was the one from pip, but now master will have only the stable releases.
-    </p>
-
-    <br>
-    <br>
-
-    <h2>Via Snap</h2>
-
-    <br>
-
-    <p>
-      On systems with snap installed, you can run <code lang="sh">sudo snap install fetchcord --classic</code> to install fetchcord.
+        Historically the stabler release was the one from pip, but now master will have only the stable releases.
+      </p>
 
       <br>
       <br>
 
-      Note that like the AUR version, this version is directly from master, for the stable release use pip
-    </p>
+      <h2>Via Snap</h2>
 
-    <br>
-    <br>
-      
-    <h2>Via pip</h2>
+      <br>
 
-    <br>
+      <p>
+        On systems with snap installed, you can run <code lang="sh">sudo snap install fetchcord --classic</code> to install fetchcord.
 
-    <p>
-      To Install fetchcord via pip you can run <code lang="sh">pip3 install fetchcord</code>
+        <br>
+        <br>
+
+        Note that like the AUR version, this version is directly from master, for the stable release use pip
+      </p>
 
       <br>
       <br>
       
-      If you want to remove FetchCord you can run <code lang="sh">pip3 uninstall fetchcord</code>
-    </p>
+      <h2>Via pip</h2>
 
-    <br>
-    <br>
+      <br>
 
-    <h2>Run</h2>
+      <p>
+        To Install fetchcord via pip you can run <code lang="sh">pip3 install fetchcord</code>
 
-    <br>
-
-    <p>
-      Once installed, simply run <code lang="sh">fetchcord</code>. The program is also daemonizable, meaning you can start it on boot using any method you prefer.
+        <br>
+        <br>
       
-      <br>
-      <br>
-
-      If you get <code lang="sh">fetchcord: command not found</code>, add <code lang="sh">export PATH="$HOME/.local/bin:$PATH"</code> to your bashrc, or just run <code lang="sh">python3 -m fetchcord</code>.
+        If you want to remove FetchCord you can run <code lang="sh">pip3 uninstall fetchcord</code>
+      </p>
 
       <br>
       <br>
+
+      <h2>Run</h2>
+
+      <br>
+
+      <p>
+        Once installed, simply run <code lang="sh">fetchcord</code>. The program is also daemonizable, meaning you can start it on boot using any method you prefer.
       
-      Optionally, for systemd users there is a user-side <code lang="sh">fetchcord.service</code> in this repo that can be installed to <code lang="sh">~/.local/share/systemd/user/</code>, started and enabled on boot using <code lang="sh">systemctl --user enable --now fetchcord</code>.
-    </p>
-  </div>
-</body>
+        <br>
+        <br>
 
+        If you get <code lang="sh">fetchcord: command not found</code>, add <code lang="sh">export PATH="$HOME/.local/bin:$PATH"</code> to your bashrc, or just run <code lang="sh">python3 -m fetchcord</code>.
+
+        <br>
+        <br>
+      
+        Optionally, for systemd users there is a user-side <code lang="sh">fetchcord.service</code> in this repo that can be installed to <code lang="sh">~/.local/share/systemd/user/</code>, started and enabled on boot using <code lang="sh">systemctl --user enable --now fetchcord</code>.
+      </p>
+    </div>
+  </body>
 </html>
