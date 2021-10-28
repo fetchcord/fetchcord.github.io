@@ -264,3 +264,7 @@ h1 {
   margin-left: 0;
   transform: translateX(0);
 }
+
+.guide, .guide h1 {
+  color: rgb(255, 255, 255);
+}
