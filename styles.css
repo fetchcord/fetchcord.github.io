@@ -10,7 +10,7 @@
 body{
   background: rgb(86,0,210);
   background: linear-gradient(90deg, rgba(86,0,210,1) 13%, rgba(45,7,107,1) 37%, rgba(2,156,218,1) 68%, rgba(53,0,255,1) 90%); 
-  color: rgb(0, 0, 0);
+  color: white;
   text-align: center;
   padding-left: 75px;
   padding-right: 75px;
@@ -288,3 +288,11 @@ h1 {
   float:center;
 }
 
+.about1 {
+  color: white;
+  padding-top: 50px;
+}
+
+.creators {
+  padding-top: 50px;
+}
