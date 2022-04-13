@@ -282,3 +282,9 @@ h1 {
   padding: 10px;
   box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.6);
 }
+
+.discordframe {
+  padding-top:50px;
+  float:center;
+}
+
