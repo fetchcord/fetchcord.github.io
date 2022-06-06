@@ -17,10 +17,6 @@ body{
   animation: fade-and-come-down 1.25s forwards;
 }
 
-h1 {
-  color: black;
-}
-
 .header {
   background-size: cover;
   background-repeat: no-repeat;
@@ -42,23 +38,6 @@ h1 {
   overflow: hidden;
 }
 
-.header--home img, .header--home h1 {
-  width: 17.5%;
-  margin-left: 0;
-  transform: translateX(0);
-  background-blend-mode: multiply;
-  filter: opacity(100%);
-}
-
-.header--home h1, .header--home p {
-  color: rgba(255, 255, 255, 1.00);
-  text-align: center;
-}
-
-.header--home h1 {
-  font-size: 32px;
-}
-
 .header--home p {
   font-size: 20px;
 }
@@ -73,16 +52,6 @@ h1 {
     opacity: 1;
   }
 }
-
-/*
-.header h1 { 
-  font-size: 60px; 
-  padding: 15px;
-  text-align: center;
-  color: #000;
-  animation: fade-and-come-down 1.25s forwards;
-} 
-*/
   .navbar {
     color:#8D8F9D;
     overflow: hidden;
@@ -278,14 +247,10 @@ h1 {
   transform: translateX(0);
 }
 
-.guide, .guide h1 {
-  color: rgb(255, 255, 255);
-}
-
 .gallery {
   margin: 10px;
   float: left;
-  width: 350px;
+  width: 31%;
   height: 375px;
   background: #0b0a0d;
   background: linear-gradient(180deg, #282A2E 0%, #2E3337 86.46%);  margin-top: 20px;
