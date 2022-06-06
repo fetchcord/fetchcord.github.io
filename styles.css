@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,900;1,300;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,400;1,700&display=swap" rel="stylesheet');
 
 *{
   margin: 0;
@@ -8,9 +8,7 @@
 }
 
 body{
-  background: rgb(86,0,210);
-  background: linear-gradient(90deg, rgba(86,0,210,1) 13%, rgba(45,7,107,1) 37%, rgba(2,156,218,1) 68%, rgba(53,0,255,1) 90%); 
-  color: white;
+  background: #1D2124;  color: white;
   text-align: center;
   padding-left: 75px;
   padding-right: 75px;
@@ -24,18 +22,20 @@ h1 {
 }
 
 .header {
-  font-family: Arial, Helvetica, sans-serif;
   background-size: cover;
   background-repeat: no-repeat;
   background-origin: border-box;
-  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
   display: grid;
   place-items: center;
-  border-bottom-left-radius: 25px;
-  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
   height: 100%;
   overflow: hidden;
-  background: linear-gradient(to right bottom, rgb(0, 20, 200), rgb(255, 100, 255));
+  border-bottom: 1px solid #494C53;
+  border-right: 1px solid #494C53;
+  border-left: 1px solid #494C53;
+  background: linear-gradient(180deg, #1D2124 0%, #2F353A 100%);
+  filter: drop-shadow(6px 6px 6px rgba(0, 0, 0, 0.25));
 }
 
 .header--home {
@@ -83,22 +83,29 @@ h1 {
   animation: fade-and-come-down 1.25s forwards;
 } 
 */
-
- .navbar {
+  .navbar {
+    color:#8D8F9D;
     overflow: hidden;
-    background: linear-gradient(to bottom, #2c539e 13%,#2c539e 40%,#2c539e 55%,#2c539e 83%);
-    font-family: Arial;
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
+    background: linear-gradient(180deg, #2E3337 0%, #23272A 96.5%);
+    border-right: 1px solid #494C53;
+    border-top: 1px solid #494C53;
+    border-left: 1px solid #494C53;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    font-weight: 500;
+    font-size: 20px;
+    
+
   }
-  
+    
   .navbar a {
     float: left;
     font-size: 16px;
-    color: white;
+    color:#8D8F9D;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    text-shadow: 0px -4px 0px rgba(0, 0, 0, 0.25);
   }
   
   .dropdown {
@@ -118,7 +125,9 @@ h1 {
   }
   
   .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: rgb(80, 51, 167);
+    color: #697EC8;
+    text-shadow: 0px 0px 19px #7593FB, 0px -4px 0px rgba(0, 0, 0, 0.25);
+
   }
   
   .dropdown-content {
@@ -271,16 +280,17 @@ h1 {
 }
 
 .gallery {
-  margin: 44px;
+  margin: 10px;
   float: left;
   width: 350px;
   height: 375px;
   background: #0b0a0d;
-  background: rgba(11, 10, 13, 0.25);
-  margin-top: 20px;
+  background: linear-gradient(180deg, #282A2E 0%, #2E3337 86.46%);  margin-top: 20px;
   text-align: center;
   padding: 10px;
-  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.6);
+  box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.25);
+  border: 1px solid #494C53;
+  border-radius: 5px;
 }
 
 .discordframe {
