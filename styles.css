@@ -278,11 +278,11 @@ body{
 
 .gallery {
     display: grid;
-    grid-template-columns: auto auto auto auto
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
 }
 
 .galleryitem {
-  margin: 10px;
   float: left;
   height: 375px;
   background: #0b0a0d;
