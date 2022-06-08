@@ -277,9 +277,13 @@ body{
 }
 
 .gallery {
+    display: grid;
+    grid-template-columns: auto auto auto auto
+}
+
+.galleryitem {
   margin: 10px;
   float: left;
-  width: 31%;
   height: 375px;
   background: #0b0a0d;
   background: linear-gradient(180deg, #282A2E 0%, #2E3337 86.46%);  margin-top: 20px;
