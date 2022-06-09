@@ -19,6 +19,7 @@ h2 {
   font-style: italic;
   font-weight: 400;
   font-size: 28px;
+  color:#ACB0B9;
 }
 
 .desc {
@@ -327,10 +328,6 @@ body{
 
 .about1 {
   color: white;
-  padding-top: 50px;
-}
-
-.creators {
   padding-top: 50px;
 }
 
