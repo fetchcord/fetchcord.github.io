@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,500;1,400;1,700&family=Roboto:ital,wght@0,500;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,500;1,400;1,700&family=Roboto:wght@300;400&display=swap');
 
 *{
   margin: 0;
@@ -28,6 +28,15 @@ h2 {
   font-style: normal;
   padding-top: 5px;
  }
+
+p {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  color:#ACB0B9;
+  text-shadow: 0px -2px 0px rgba(0, 0, 0, 0.25);
+}
 
 /*End of font styles*/
 
@@ -157,6 +166,16 @@ body{
   .dropdown:hover .dropdown-content {
     display: block;
   } 
+
+.textbg{
+  background: #0b0a0d;
+  background: linear-gradient(180deg, #282A2E 0%, #2E3337 86.46%);
+  margin-top: 20px;
+  text-align: center;
+  padding: 15px;
+  filter: drop-shadow(0px 6px 0px rgba(0, 0, 0, 0.25));
+  border-radius: 5px;
+}
 
 .footer {
   position: fixed;
