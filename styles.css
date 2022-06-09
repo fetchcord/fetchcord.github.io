@@ -103,6 +103,9 @@ body{
     background: linear-gradient(180deg, #2E3337 0%, #23272A 96.5%);
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
   }
     
   .navbar a {
@@ -121,7 +124,7 @@ body{
     display:
     grid;
     justify-content: start;
-    grid-template-columns: auto auto auto auto auto auto auto 53vw auto;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
     align-items: center;
   }
 
@@ -134,7 +137,7 @@ body{
   }
 
   .dropdown {
-    float: right;
+    /* float: right; */
     overflow: hidden;
     font-family: 'Roboto Mono';
   }
