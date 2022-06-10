@@ -1,6 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
+<html lang="en"><head>
     <title>FetchCord</title>
     <meta content="text/html" charset="UTF-8" http-equiv="Content-Type">
     <meta content="UTF-8" http-equiv="encoding">
@@ -10,112 +8,73 @@
   </head>
 
   <body>
+      
     <div class="navbar">
+    <div class="navbuttons">
       <a href="index.html">Home</a>
+      <div class="vl"></div>
       <a href="about.html">About</a>
+      <div class="vl"></div>
       <a href="credits.html">Credits</a>
+      <div class="vl"></div>
       <a href="discord.html">Discord</a>
-
+    </div>
+    
       <div class="dropdown">
-        <button class="dropbtn">Installation
-          <em class="fa fa-caret-down"></i>
-        </button>
-
-        <div class="dropdown-content">
+        <button class="dropbtn" style="    color: #5c3de3;
+    text-shadow: 0px 0px 19px #8065F4, 0px -4px 0px rgba(0, 0, 0, 0.25);
+">Installation v</button>
+            <div class="dropdown-content">
           <a href="linux.html">Linux</a>
           <a href="macos.html">MacOS</a>
           <a href="windows.html">Windows</a>
         </div>
-      </div>
+</div></div>    
+      <header class="header">
+    <div class="logo">
+        <img alt="Homepage Header" src="fetchcord.png" style="height: 151px;">
     </div>
-
-    <header class="head4"><img alt="header image" src="linux.png" /></header>
-
-    <div class="guide">
-      <br>
-
-      <h1>Installing on (GNU/)Linux</h1>
-
-      <br>
-      <br>
-
-      <p>
-        <strong>NOTE:</strong> <em>You need neofetch to be also installed for this to work.</em>
-      </p>
-
-      <br>
-      <br>
-
-      <h2>Via AUR</h2>
-
-      <br>
-
-      <p>
-        On Arch Linux for the git testing version (the less stable version): fetchcord-testing
-      
-        <br>
-        <br>
-
-        And the git version (synced with master): fetchcord
-      
-        <br>
-        <br>
-
-        Historically the stabler release was the one from pip, but now master will have only the stable releases.
-      </p>
-
-      <br>
-      <br>
-
-      <h2>Via Snap</h2>
-
-      <br>
-
-      <p>
-        On systems with snap installed, you can run <code lang="sh">sudo snap install fetchcord --classic</code> to install fetchcord.
-
-        <br>
-        <br>
-
-        Note that like the AUR version, this version is directly from master, for the stable release use pip
-      </p>
-
-      <br>
-      <br>
-      
-      <h2>Via pip</h2>
-
-      <br>
-
-      <p>
-        To Install fetchcord via pip you can run <code lang="sh">pip3 install fetchcord</code>
-
-        <br>
-        <br>
-      
-        If you want to remove FetchCord you can run <code lang="sh">pip3 uninstall fetchcord</code>
-      </p>
-
-      <br>
-      <br>
-
-      <h2>Run</h2>
-
-      <br>
-
-      <p>
-        Once installed, simply run <code lang="sh">fetchcord</code>. The program is also daemonizable, meaning you can start it on boot using any method you prefer.
-      
-        <br>
-        <br>
-
-        If you get <code lang="sh">fetchcord: command not found</code>, add <code lang="sh">export PATH="$HOME/.local/bin:$PATH"</code> to your bashrc, or just run <code lang="sh">python3 -m fetchcord</code>.
-
-        <br>
-        <br>
-      
-        Optionally, for systemd users there is a user-side <code lang="sh">fetchcord.service</code> in this repo that can be installed to <code lang="sh">~/.local/share/systemd/user/</code>, started and enabled on boot using <code lang="sh">systemctl --user enable --now fetchcord</code>.
-      </p>
+    <div class="headertxt">
+        <h1>FetchCord</h1>
+        <h2>Installing on (GNU/)Linux
+</h2>
     </div>
-  </body>
-</html>
+</header>
+<div class="textbg"><p>NOTE: You need neofetch to be also installed for this to work.</p>
+    <br>
+    
+    <h2>
+    &gt; Via AUR
+    </h2>
+    <br>
+    <p>On Arch Linux for the git testing version (the less stable version): fetchcord-testing</p>
+    <p>Github version (synced with master): fetchcord</p>
+    <p>Historically the stabler release was the one from pip, but now master will have only the stable releases.</p>
+    <br>
+
+    <h2>
+    &gt; Via Snap
+    </h2>
+    <br>
+    <p>On systems with snap installed, you can run <code>sudo snap install fetchcord --classic</code> to install fetchcord.</p>
+    <p>Note that like the AUR version, this version is directly from master, for the stable release use pip
+</p>
+<br>
+    <h2>
+    &gt; Via pip
+    </h2>
+    <br>
+    <p>To Install fetchcord via pip you can run <code>pip3 install fetchcord</code></p>
+    <p>If you want to remove FetchCord you can run <code>pip3 uninstall fetchcord</code></p>
+    <br>
+    <h2>
+    &gt; Run
+    </h2>
+    <br>
+    <p>Once installed, simply run <code>fetchcord</code>. The program is also daemonizable, meaning you can start it on boot using any method you prefer.</p>
+    <p>If you get <code>fetchcord: command not found</code>, add export <code>PATH="$HOME/.local/bin:$PATH"</code> to your bashrc, or just run <code>python3 -m fetchcord.</code>
+</p><p>Optionally, for systemd users there is a user-side <code>fetchcord.service</code> in this repo that can be installed to <code>~/.local/share/systemd/user/</code>, started and enabled on boot using <code>systemctl --user enable --now fetchcord</code>.
+</p><p></p>
+    
+</div>
+</body></html>
