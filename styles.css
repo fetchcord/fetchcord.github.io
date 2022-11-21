@@ -102,9 +102,10 @@ body{
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     display: flex;
-    flex-wrap: nowrap;
+    /* flex-wrap: nowrap; */
     justify-content: space-between;
     align-items: center;
+    overflow-x: scroll;
   }
     
   .navbar a {
@@ -137,7 +138,6 @@ body{
 
   .dropdown {
     float: right;
-    overflow: hidden;
     font-family: 'Roboto Mono';
   }
   
@@ -151,6 +151,7 @@ body{
     background-color: inherit;
     font-family: inherit;
     margin: 0;
+    white-space: nowrap;
   }
   
   .navbar a:hover, .dropdown:hover .dropbtn {
