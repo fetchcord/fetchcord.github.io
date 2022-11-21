@@ -51,6 +51,8 @@ body{
   animation: fade-and-come-down 1.25s forwards;
 }
 
+
+
 .header {
   background-size: cover;
   background-repeat: no-repeat;
@@ -76,13 +78,15 @@ body{
 }
 
 .headertxt {
-  text-align:
-  left;
-  float:
-  right;
+  text-align:left;
+  float:right;
 }
 
 @media only screen and (max-width: 800px) {
+  body{
+    padding-left:35px;
+    padding-right:35px;
+  }
   .logo {
       transform-origin: left;
       transform: scale(.7);
