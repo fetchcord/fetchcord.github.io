@@ -55,8 +55,8 @@ body{
   background-size: cover;
   background-repeat: no-repeat;
   background-origin: border-box;
-  display: grid;
-  grid-template-columns: 150px auto;
+  display: flex;
+  flex-wrap: nowrap;
   column-gap: 30px;
   place-items: center;
   border-bottom-left-radius: 5px;
@@ -67,6 +67,7 @@ body{
   filter: drop-shadow(0px 6px 0px rgba(0, 0, 0, 0.25));
   text-shadow: 0px -4px 0px rgba(0, 0, 0, 0.25);
   justify-content: center;
+  align-items: center;
 }
 
 
@@ -83,21 +84,22 @@ body{
 
 @media only screen and (max-width: 800px) {
   .logo {
-        transform-origin: right;
-        transform: scale(.7);
+      transform-origin: left;
+      transform: scale(.7);
+      width:110px
   }
   .header {
-      grid-template-columns: 70%inherit auto;
+      grid-template-columns: auto auto;
   }
 }
 
-@media only screen and (max-width: 620px) {
+@media only screen and (max-width: 600px) {
   .logo {
-    transform: scale(0);
+    display: none;
   }
   
-  .headertxt {
-    float:left;
+  .header {
+    grid-template-columns: auto;
   }
 }
 
