@@ -192,6 +192,13 @@ body{
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
   }
+
+@media only screen and (max-width: 768px) {
+  .dropdown-content {
+    margin-left: 0;
+    right: 75px;
+  }
+}
   
   .dropdown-content a {
     float: none;
