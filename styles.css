@@ -127,12 +127,14 @@ body{
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     display: flex;
-    /* flex-wrap: nowrap; */
     justify-content: space-between;
     align-items: center;
     overflow-x: scroll;
+    overflow: -moz-scrollbars-none; 
   }
-    
+
+  .navbar::-webkit-scrollbar { height: 0 !important }
+
   .navbar a {
     float: left;
     color:#8D8F9D;
